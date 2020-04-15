@@ -20,8 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                intent.putExtra("name", "Klaras Activity");
-                intent.putExtra("number", "2");
+                intent.putExtra("name", "My Second Activity");
                 startActivity(intent);
             }
         });
