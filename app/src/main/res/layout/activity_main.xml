@@ -11,9 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@color/colorPrimaryLight"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent">
+        >
 
         <TextView
             android:layout_width="match_parent"
@@ -30,8 +28,6 @@
             android:layout_marginHorizontal="70dp"
             android:layout_marginTop="200dp"
             android:background="@color/colorAccent"
-            android:cursorVisible="false"
-            android:fadingEdge="none"
             android:text="Start second activity" />
     </LinearLayout>
 
